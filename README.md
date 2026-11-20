@@ -1,11 +1,9 @@
 # HTML2Markdown
 
-Aplicación Java (17 o superior) que recibe la URL de una página web, descarga su HTML con
-`URL` / `URLConnection` / `HttpURLConnection`, lo analiza con `ParserDelegator` y genera un
-archivo Markdown en UTF-8. Usa **exclusivamente la API estándar de Java**.
+
 
 - Asignatura: Desarrollo de Sistemas III
-- Autor: _(tu nombre)_
+
 
 ## Uso
 
@@ -201,6 +199,6 @@ prueba (`tablas.html`) y su esperado.
 
 Tablas, índice a partir de encabezados, varias URL desde CSV y reporte de elementos no
 admitidos. La detección del lenguaje en bloques de código (`class="language-x"`) sí está incluida.
-
-##Cesar Uriel Aguiar Altamirano 
-##Expediente a225204109@unison.mx
+#
+## Cesar Uriel Aguiar Altamirano 
+## Expediente a225204109@unison.mx
