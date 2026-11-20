@@ -1,0 +1,15 @@
+OK       anidados
+OK       codigo
+OK       documento_completo
+OK       ejemplo_enunciado
+OK       encabezados
+OK       enlaces
+OK       entidades
+OK       formato
+OK       html5_moderno
+OK       imagenes
+OK       listas
+OK       script_style
+OK       vacio
+
+Resultado: 13 correctas, 0 con fallo

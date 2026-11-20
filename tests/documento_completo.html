@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía de HTML2Markdown</title>
+<style>body { font-family: sans-serif; }</style>
+<script>console.log("no mostrar");</script>
+</head>
+<body>
+<h1>Guía de <em>HTML2Markdown</em></h1>
+<p>Este documento resume las <strong>reglas de conversión</strong> y enlaza a la <a href="https://dev.java/">documentación</a> oficial.</p>
+<h2>Elementos admitidos</h2>
+<ul>
+  <li>Encabezados, párrafos y <b>formato</b></li>
+  <li>Enlaces e imágenes
+    <ul>
+      <li>Absolutos como <a href="https://dev.java/learn/">aprender Java</a></li>
+      <li>Relativos como <a href="../recursos/guia.html">la guía</a></li>
+    </ul>
+  </li>
+  <li>Listas ordenadas y no ordenadas</li>
+</ul>
+<h2>Pasos</h2>
+<ol>
+  <li>Compilar el proyecto</li>
+  <li>Ejecutar con una <code>URL</code></li>
+  <li>Revisar el archivo <em>.md</em></li>
+</ol>
+<img src="img/esquema.png" alt="Esquema cliente-servidor">
+<blockquote>La salida conserva la estructura semántica.</blockquote>
+<pre><code class="language-bash">java HTML2Markdown https://ejemplo.org/articulo.html</code></pre>
+<hr>
+<p>Última línea<br>con salto &mdash; y acentos: canción, año.</p>
+</body>
+</html>

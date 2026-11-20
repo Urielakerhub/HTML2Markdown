@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>No debe aparecer</title>
+<style>body { color: red; } p > a { margin: 0; }</style>
+<script>var x = "<b>no</b>"; document.write("</p>");</script>
+</head>
+<body>
+<script type="text/javascript">alert('hola');</script>
+<p>Contenido visible.</p>
+<style>.oculto { display: none; }</style>
+<!-- comentario que no debe aparecer -->
+<p>Otro párrafo visible.</p>
+</body>
+</html>
